@@ -1,0 +1,115 @@
+/*
+Theme Name: First Theme
+Description: It is first style of our WordPress. 
+Author: Fenjoon
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Version: 1.0
+License: GNU/GPL Version 2 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+*/
+
+
+/* Font  
+========================================================================================*/
+body { -webkit-text-size-adjust:100%; -moz-text-size-adjust:100%; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#959595; line-height:18px;}
+#logo { font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif; }
+nav, h1, h2, h3, h4, h5, h6 { font-family: 'Roboto Condensed', sans-serif, Arial, Helvetica, sans-serif; }
+
+/* End Font  
+========================================================================================*/
+
+/* Branding  
+========================================================================================*/
+body {  color:#666666;  background:#fb8206 url(file:///D|/wamp/www/tmp/t1/img/header-bg.png) repeat-x left top; }
+.pageWidth { width:940px; margin:0 auto;}
+
+#logo { display:block; text-align:right; padding:21px 0 19px 0; font-size:40px; text-transform:none; line-height:40px; color:#FFF; margin-bottom:0;font-weight:700; text-shadow:1px 1px 1px rgba(0,0,0,0.19) }
+
+header, nav, section, footer { display:block;}
+#header { padding:0 0 15px 0; box-shadow:0 0px 10px rgba(0,0,0,0.26); position:relative}
+
+/* END Branding  
+========================================================================================*/
+
+/* HEADING   
+========================================================================================*/
+h1 { font-size:35px; color:#444444; line-height:35px; margin-bottom:7px; font-weight:bold; text-transform:uppercase}
+h2 { font-size:33px; color:#444444; line-height:33px; margin-bottom:7px; font-weight:bold; text-transform:uppercase}
+h3 { font-size:31px; color:#444444; line-height:31px; margin-bottom:5px; font-weight:bold; text-transform:uppercase}
+h4 { font-size:29px; color:#444444; line-height:29px; margin-bottom:5px; font-weight:bold; text-transform:uppercase}
+h5 { font-size:27px; color:#444444; line-height:27px; margin-bottom:3px; font-weight:bold; text-transform:uppercase}
+
+
+/* END  HEADING   
+========================================================================================*/
+
+/* Links AND Button   
+========================================================================================*/
+a:focus{ outline:none;}
+a { color:#0a95cf; text-decoration:none;}
+a:hover { color:#0a95cf;}
+li { list-style:none;}
+
+/* Links AND Button   
+========================================================================================*/
+
+/* Main Navigation 
+========================================================================================*/
+nav { background:#FFF url(file:///D|/wamp/www/tmp/t1/img/nav.png) repeat-x 0 0; padding:0; margin-top:15px; box-shadow:0 0 8px rgba(0,0,0,0.08)}
+nav ul { text-align:center; }
+nav li { float:right; margin-left:0; position:relative}
+nav li a { color:rgba(000,000,000,0.5); font-size:18px; text-transform:uppercase; padding:17px 20px 17px 20px; font-weight:300; line-height:20px; display:block; position:relative; z-index:1 } 
+nav li a:hover, nav li.active a { color:rgba(000,000,000,0.5) }
+nav li:first-child { margin-left:0 }
+
+#menu { display:none; color:#4c4c4c; font-size:16px; background:url(file:///D|/wamp/www/tmp/t1/img/menu-img.png) no-repeat right 11px; padding:13px 0 9px 10px; margin-right:10px; line-height:23px  }
+
+nav li:before { position:absolute; content:''; display:block; background:rgba(000,000,000,0.05); left:50%; top:0; width:10px; height:100%; color:#FFF; transition:all 0.2s ease; -webkit-transition:all 0.2s ease;
+-moz-transition:all 0.2s ease;
+-o-transition:all 0.2s ease;
+ font-size:12px; opacity:0; margin-left:-5px; }
+nav li:hover:before, nav li.active:before { opacity:1; left:0; width:100%; margin-left:0  }
+
+/* End Navigation 
+========================================================================================*/
+#banner { text-align:center; }
+#banner img {
+	width:10%;
+	border-radius:10px;
+}
+
+#container { padding:30px 0; background:#f2f2f2 }
+
+article ul li { padding-left:15px;}
+article ul li:before{ content:'B'; text-indent:-5px; font-weight:bold; font-size:60px; height:5px; line-height:5px; width:5px; border-radius:10px;  vertical-align:middle; float:left;  margin-left:-15px; overflow:hidden; margin-top:7px; }
+article ol { margin-left:15px; }
+article ol li { list-style:decimal; }
+
+.pageControl{ transform: translate(0px, 0px);
+-webkit-transform: translate(0px, 0px);
+-moz-transform: translate(0px, 0px);
+-o-transform: translate(0px, 0px);
+-ms-transform: translate(0px, 0px);}
+
+.activepage .pageControl{transform: translate(-1000px, 0px);
+-webkit-transform: translate(-1000px, 0px);
+-moz-transform: translate(-1000px, 0px);
+-o-transform: translate(-1000px, 0px);
+-ms-transform: translate(-1000px, 0px);
+
+}
+
+/* FORM 
+========================================================================================*/
+fieldset {}
+/* Footer
+===============================================*/
+#footer { padding:20px 0; background:#4f4f50;}
+.block { display:block; color:#d3d2d2; font-size:25px; }
+
+#copy {}
+.copyRight { font-size:13px;  }
+
+/* transition
+===============================================*/
+#wrapper, #widecolumn, aside, nav li{transition: all 0.2s; -moz-transition: all 0.2s; -webkit-transition: all 0.2s; -o-transition: all 0.2s;}
